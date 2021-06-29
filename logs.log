@@ -1,150 +1,28 @@
-2021-06-21 21:36:06,464; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
+2021-06-29 18:42:26,493; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
+2021-06-29 18:42:26,557; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
 Traceback (most recent call last):
   File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
     from livelossplot import PlotLosses
 ModuleNotFoundError: No module named 'livelossplot'
-2021-06-21 21:36:06,505; INFO; nprophet.utils; set_auto_seasonalities; Disabling daily seasonality. Run NeuralProphet with daily_seasonality=True to override this.
-2021-06-21 21:36:06,507; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-21 21:36:06,885; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 4.33E-01
-2021-06-21 21:37:35,975; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-21 21:37:37,715; WARNING; nprophet; predict; Model has not been fitted. Predictions will be random.
-2021-06-21 21:38:03,088; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-21 21:38:03,104; INFO; nprophet.utils; set_auto_seasonalities; Disabling daily seasonality. Run NeuralProphet with daily_seasonality=True to override this.
-2021-06-21 21:38:03,116; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 8
-2021-06-21 21:38:03,436; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.87E-01
-2021-06-25 20:34:42,783; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 20:34:42,844; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 20:34:42,884; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-25 20:34:43,276; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 2.31E-01
-2021-06-25 20:48:30,252; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 20:48:30,292; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 20:49:44,126; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 20:49:44,152; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 20:50:34,283; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 20:50:34,405; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 20:50:34,451; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-25 20:50:34,947; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 2.85E-01
-2021-06-25 20:51:09,470; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 20:51:09,505; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 20:51:51,134; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 20:51:51,219; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 20:55:06,188; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 20:55:06,224; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 20:55:06,272; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-25 20:55:06,605; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 2.85E-01
-2021-06-25 20:57:18,391; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 20:57:18,418; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 20:59:14,387; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 21:02:34,662; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 21:02:34,726; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 21:02:34,753; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-25 21:02:35,129; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.52E-01
-2021-06-25 21:03:03,935; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:03:03,967; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:03:46,752; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:03:46,781; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:09:42,980; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 21:09:43,021; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 21:09:43,054; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-25 21:09:43,387; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.23E-01
-2021-06-25 21:10:19,014; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:10:19,045; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:11:01,651; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:11:01,701; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:13:58,929; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:13:58,944; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:13:58,952; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
-2021-06-25 21:15:15,243; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:15:15,270; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:15:15,283; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
-2021-06-25 21:15:27,136; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:15:27,161; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:15:27,187; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
-2021-06-25 21:16:45,851; INFO; nprophet; _handle_missing_data; 26 missing dates were added.
-2021-06-25 21:16:45,866; INFO; nprophet; _handle_missing_data; 26 NaN values in column y were auto-imputed.
-2021-06-25 21:16:45,874; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
-2021-06-25 21:16:46,124; WARNING; nprophet; plot; Too few forecasts to plot a line per forecast step.Plotting a line per forecast origin instead.
-2021-06-25 21:17:31,769; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 21:17:31,828; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 21:17:31,865; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-25 21:17:32,246; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.23E-01
-2021-06-25 21:18:08,054; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:18:08,085; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:18:55,315; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:18:55,385; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:19:42,245; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-25 21:19:42,286; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-25 21:19:42,314; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-25 21:19:42,658; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.87E-01
-2021-06-25 21:19:56,173; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:19:56,192; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:20:39,618; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:20:39,700; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:21:49,829; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:21:49,862; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-25 21:22:32,331; INFO; nprophet; _handle_missing_data; 653 missing dates were added.
-2021-06-25 21:22:32,419; INFO; nprophet; _handle_missing_data; 653 NaN values in column y were auto-imputed.
-2021-06-29 17:53:07,876; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-29 17:53:07,934; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-29 17:53:07,974; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-29 17:53:08,350; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.23E-01
-2021-06-29 17:53:37,936; INFO; nprophet; _handle_missing_data; 655 missing dates were added.
-2021-06-29 17:53:37,965; INFO; nprophet; _handle_missing_data; 655 NaN values in column y were auto-imputed.
-2021-06-29 17:54:22,949; INFO; nprophet; _handle_missing_data; 655 missing dates were added.
-2021-06-29 17:54:22,971; INFO; nprophet; _handle_missing_data; 655 NaN values in column y were auto-imputed.
-2021-06-29 17:57:53,387; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
-2021-06-29 17:57:53,458; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
-Traceback (most recent call last):
-  File "/Users/singyeongseob/opt/anaconda3/envs/pp379/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
-    from livelossplot import PlotLosses
-ModuleNotFoundError: No module named 'livelossplot'
-2021-06-29 17:57:53,503; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
-2021-06-29 17:57:54,257; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.52E-01
-2021-06-29 17:58:15,243; INFO; nprophet; _handle_missing_data; 655 missing dates were added.
-2021-06-29 17:58:15,271; INFO; nprophet; _handle_missing_data; 655 NaN values in column y were auto-imputed.
-2021-06-29 17:59:03,900; INFO; nprophet; _handle_missing_data; 655 missing dates were added.
-2021-06-29 17:59:03,971; INFO; nprophet; _handle_missing_data; 655 NaN values in column y were auto-imputed.
+2021-06-29 18:42:26,638; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 8
+2021-06-29 18:42:26,934; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.23E-01
+2021-06-29 18:42:44,567; INFO; nprophet; _handle_missing_data; 303 missing dates were added.
+2021-06-29 18:42:44,585; INFO; nprophet; _handle_missing_data; 303 NaN values in column y were auto-imputed.
+2021-06-29 18:43:07,987; INFO; nprophet; _handle_missing_data; 303 missing dates were added.
+2021-06-29 18:43:08,025; INFO; nprophet; _handle_missing_data; 303 NaN values in column y were auto-imputed.
+2021-06-29 18:47:22,904; INFO; nprophet; _handle_missing_data; 774 missing dates were added.
+2021-06-29 18:47:22,931; INFO; nprophet; _handle_missing_data; 774 NaN values in column y were auto-imputed.
+2021-06-29 18:48:15,266; INFO; nprophet; _handle_missing_data; 774 missing dates were added.
+2021-06-29 18:48:15,336; INFO; nprophet; _handle_missing_data; 774 NaN values in column y were auto-imputed.
+2021-06-29 18:48:29,290; INFO; nprophet; _handle_missing_data; 774 missing dates were added.
+2021-06-29 18:48:29,308; INFO; nprophet; _handle_missing_data; 774 NaN values in column y were auto-imputed.
+2021-06-29 18:48:29,314; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
+2021-06-29 18:49:17,929; INFO; nprophet; _handle_missing_data; 26 missing dates were added.
+2021-06-29 18:49:17,941; INFO; nprophet; _handle_missing_data; 26 NaN values in column y were auto-imputed.
+2021-06-29 18:49:17,953; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
+2021-06-29 18:49:18,217; WARNING; nprophet; plot; Too few forecasts to plot a line per forecast step.Plotting a line per forecast origin instead.
+2021-06-29 18:49:40,485; INFO; nprophet; _handle_missing_data; 774 missing dates were added.
+2021-06-29 18:49:40,518; INFO; nprophet; _handle_missing_data; 774 NaN values in column y were auto-imputed.
+2021-06-29 18:49:40,543; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
+2021-06-29 18:50:56,667; INFO; nprophet; _handle_missing_data; 774 missing dates were added.
+2021-06-29 18:50:56,694; INFO; nprophet; _handle_missing_data; 774 NaN values in column y were auto-imputed.
